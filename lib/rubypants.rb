@@ -84,7 +84,7 @@ class RubyPants < String
     @en_dash            = @entities[:en_dash]
   end
 
-  SPECIAL_HTML_TAGS = %r!\A<(/?)(pre|code|kbd|script|style|math)[\s>]!
+  SPECIAL_HTML_TAGS = %r!\A<(/?)(figure|pre|code|kbd|script|style|math)[\s>]!
   NON_WHITESPACE_CHARS = /\S/
 
   # Apply SmartyPants transformations.
